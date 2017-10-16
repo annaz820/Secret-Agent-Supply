@@ -13,12 +13,14 @@ h4 {
 
 h1 {
   font-size: 2rem;
+  padding-top: 0.25rem;
 }
 
 .black {
   background-color: black;
   color: white;
 }
+
 .header {
   width: 960px;
   margin: 0 auto;
@@ -35,18 +37,24 @@ h1 {
   margin-bottom: auto;
 }
 
+.arrival-div {
+  width: 960px;
+  margin: 0 auto;
+}
+
 .arrival-text {
-  position: absolute;
+  position: relative;
   font-family: Helvetica;
   font-weight: bold;
   background-color: black;
   color: white;
   width: 20rem;
+  margin-top: 9rem;
+  margin-right: 0;
 }
 
 .arrival-text-all {
-  margin-top: 2rem;
-  margin-left: 3rem;
+  padding: 2rem 3rem;
 }
 
 #name {
@@ -64,5 +72,5 @@ h1 {
   background-size: cover;
   height: 25rem;
   width: 100%;
-
+  position: absolute;
 }
