@@ -1,0 +1,68 @@
+html {
+  font-size: 18px;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+.header {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  position: relative;
+  height: 1.5rem;
+  width: auto;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.arrival-text {
+  position: absolute;
+  font-family: Helvetica;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  width: 20rem;
+}
+
+.arrival-text-all {
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+#name {
+  position: relative;
+  font-family: Helvetica;
+  font-size: 1rem;
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+  color: white;
+  display: inline-block;
+}
+
+#arrival {
+  background-image: url("D:/Projects/SecretAgentSupply/resources/image/moto.jpeg");
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+
+}
