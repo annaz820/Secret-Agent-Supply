@@ -160,7 +160,7 @@ footer span {
 }
 
 #arrival {
-  background-image: url("./resources/css/resources/image/moto.jpeg");
+  background-image: url("../image/moto.jpeg");
   background-size: cover;
   height: 25rem;
   width: 100%;
