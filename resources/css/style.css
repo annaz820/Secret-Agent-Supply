@@ -73,8 +73,9 @@ footer span {
   background-color: black;
   color: white;
   width: 20rem;
-  margin-top: 9rem;
+  margin-top: 0;
   margin-right: 0;
+  top: 9rem;
 }
 
 .arrival-text-all {
