@@ -29,6 +29,21 @@ a {
   color:white;
 }
 
+footer {
+  background-color: black;
+  width: 100%;
+}
+
+footer span {
+  height: 5rem;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
 .black {
   background-color: black;
   color: white;
@@ -44,7 +59,6 @@ a {
   margin: auto 1rem auto 0.5rem;
   height: 1.5rem;
   width: auto;
-
 }
 
 .arrival-div {
@@ -122,10 +136,18 @@ a {
 .location,
 .hours {
   display: block;
-  padding: 1rem auto 1rem 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
   width: 100%;
+  position: relative;
 }
 
+.footer {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
 
 #name {
   position: relative;
@@ -150,4 +172,8 @@ a {
   display: flex;
   flex-direction: column;
   width: 35%;
+}
+
+@media only screen and (max-width: 1280px;) {
+
 }
