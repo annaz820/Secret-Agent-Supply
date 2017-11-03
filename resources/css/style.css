@@ -150,6 +150,11 @@ footer span {
   display: flex;
 }
 
+.tablet {
+  display: flex;
+  justify-content: center;
+}
+
 #name {
   position: relative;
   font-family: Helvetica;
@@ -175,6 +180,43 @@ footer span {
   width: 35%;
 }
 
-@media only screen and (max-width: 1280px;) {
+@media only screen and (min-width: 1280px) {
+  .tablet {
+    display: none;
+  }
+}
 
+@media only screen and (max-width: 1280px) {
+  .original {
+    display: none;
+  }
+  .container {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .footer {
+    justify-content: center;
+  }
+  .container {
+    width: 90%
+  }
+  .arrival-text-all {
+    padding: 1rem 2rem;
+  }
+  h4 {
+    font-size: 0.77rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+    padding-top: 0.25rem;
+  }
+  .arrival-text {
+    top:10rem;
+  }
+  #arrival {
+    height: 15rem;
+  }
 }
